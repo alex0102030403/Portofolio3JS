@@ -1,0 +1,153 @@
+.skills{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.skills::before{
+    content: '';
+   position: absolute;
+   bottom: -104vh;
+   width: 100vw;
+   height: 8vh;
+   background: linear-gradient(to center, #1a1a1a75m, transparent);
+   backdrop-filter: blur(3px);
+   z-index: 2;
+}
+
+.skills img{
+    width: 100%;
+    height: 100%;
+}
+
+.skillsTitle{
+    position: absolute;
+    color: #fffa;
+    z-index: 1;
+    margin-top: -85vh;
+    font-weight: 400;
+    font-size: 2.8vw;
+    font-family: "Dancing Script";
+    margin-left: -6vw;
+}
+
+.skillsContent{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.skillsContainer{
+    display: grid;
+    place-items: center;
+    width: 30vw;
+    height: 100vh;
+    margin-left: 10vw;
+}
+
+.skillsContainerDesc{
+    display: grid;
+    place-items: center;
+    width: 30vw;
+    height: 100vh;
+    margin-left: 10vw;
+}
+
+.skillsDescriptionDesc{
+    display: grid;
+    place-items: center;
+    width: 40vw;
+    height: 60vh;
+    border: 0.2px solid rgba(100, 100, 100, 0.667);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-left: -22vw;
+}
+
+.skillsDescription{
+    display: grid;
+    place-items: center;
+    width: 30vw;
+    height: 60vh;
+    border: 0.2px solid rgba(100, 100, 100, 0.667);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.htmlDesc{
+    
+    color: #fffa;
+    font-family: "Dancing Script";
+    font-size: 1.4vw;
+    font-weight: 400;
+    margin-top: 0;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.DescTitle{
+    position: absolute;
+    color: #fffa;
+    z-index: 1;
+    margin-top: -67vh;
+    font-weight: 400;
+    font-size: 2.0vw;
+    font-family: "Dancing Script";
+    margin-left: -1.8vw;
+}
+
+.html{
+    color: #fffa;
+    font-family: "Dancing Script";
+    font-size: 1.4vw;
+    font-weight: 400;
+    margin-top: 2vh;
+}
+
+.htmlLine{
+    width: 20vw;
+    height: 0.1vh;
+    background: linear-gradient(to left, #fffa 5%, #22222261 95%);
+}
+
+
+
+.htmlCircle,
+.pyCircle,
+.cppCircle,
+.jsCircle{
+    width: 0.60vw;
+    height: 1vh;
+    background-color: #fffa;
+    border-radius: 50%;
+    margin-top: -0.45vh;
+    margin-left: 20vw;
+}
+
+.htmlCircle{
+    margin-left: 16vw;
+}
+
+.cppCircle{
+    margin-left: 18vw;
+}
+
+.pyCircle{
+    margin-left: 14vw;
+}
+
+.jsCircle{
+    margin-left: 14vw;
+}
+
+
+
+
+
+

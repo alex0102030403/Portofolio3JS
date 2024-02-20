@@ -1,0 +1,18 @@
+newmtl Plastic_Mat
+Ni 1.5
+Ka 0 0 0
+d 1
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal Dice_STU83DT/Plastic_Mat_normal.png
+map_d Dice_STU83DT/Plastic_Mat_opacity.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness Dice_STU83DT/Plastic_Mat_roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+map_Pm Dice_STU83DT/Plastic_Mat_metallic.png
+Ns 16
+map_Kd Dice_STU83DT/Plastic_Mat_baseColor.png
